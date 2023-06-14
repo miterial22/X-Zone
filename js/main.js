@@ -10,6 +10,7 @@ function ready() {
         max: 15,
         speed: 400
     });
+    document.querySelector('.year').innerHTML = new Date().getFullYear()
 }
 
 function initAnimation () {
